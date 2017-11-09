@@ -1,0 +1,113 @@
+
+
+body h1{
+  font-size: 3.5em;
+  margin: 5px 0 5px 0;
+}
+
+body h2{
+  font-size: 2.2em;
+  margin: 5px 0 5px 0;
+}
+
+body h3 {
+  font-size: 1.5em;
+  margin: 5px 0 5px 0;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 20px;
+}
+
+/* HEADER */
+
+.heroSection{
+  height: 175px;
+  vertical-align: baseline;
+  padding-top: 60px;
+}
+
+.title>h2{
+  font-size: 1.5em;
+  margin: 0;
+}
+
+
+/* MENU PRINCIPAL */
+
+.mainMenu {
+  display: block;
+  width: 100%;
+  padding-left: 15%;
+  border: 2px solid black;
+  box-sizing: border-box;
+  background-color: white;
+  height: 50px;
+  padding-top: 10px;
+  text-align: right;
+}
+
+.menuItem {
+
+  display: inline-block;
+  font-size: 1.3em;
+  box-sizing: border-box;
+  margin-right: 50px;
+  padding: 4px;
+}
+
+.menuItem>a:hover,
+.menuItem>label:hover{
+  cursor: pointer;
+  color: red;
+}
+
+/*DROP MENU*/
+
+.dropContent>.menuItem{
+  display: block;
+}
+
+.dropContent {
+  display: none;
+  background-color: grey;
+  width: inherit;
+  margin: 0;
+  padding: 0;
+  margin-top: 11px;
+  z-index: 1;
+}
+
+.dropContent > .menuItem{
+  margin: 0;
+  height: 1.5em;
+  width: 120px;
+  text-align: left;
+}
+
+#dropCheck:checked+label+.dropContent{
+  display: block;
+  position: absolute;
+}
+
+#dropCheck:checked+label{
+  color: red;
+}
+
+#dropCheck{
+  display: none;
+}
+
+/* ELEMENTOS CORPO DO SITE */
+
+.topic {
+  margin: 50px 0px 50px 0px;
+  padding-right: 200px;
+}
