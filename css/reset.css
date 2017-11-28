@@ -53,3 +53,7 @@ table {
 a{
   text-decoration: none;
 }
+
+img{
+  width: inherit;
+}
