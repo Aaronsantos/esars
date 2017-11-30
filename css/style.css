@@ -4,14 +4,6 @@
   font-weight: normal;
   src:  url(../fonts/Oswald-Regular.ttf);
 }
-/*
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: lighter;
-  src: url(../fonts/Oswald-ExtraLight.ttf);
-}*/
-
 
 @font-face {
   font-family: 'Oswald';
@@ -240,6 +232,7 @@ main h2+.project{
 
   margin: 40px auto 0px auto ;
   display: flex;
+  width: 100%;
 
 }
 
