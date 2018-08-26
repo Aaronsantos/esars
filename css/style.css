@@ -118,6 +118,28 @@ header {
   color: #d94154;
 }
 
+@media screen and (max-width: 400px){
+
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .menuItem{
+    display: block;
+    height: 50px;
+    text-align: right;
+    border-bottom: 2px solid #f2f0f1;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .mainMenu {
+    height: auto;
+  }
+
+}
+
 /*DROP MENU*/
 
 .dropContent>.menuItem{
@@ -239,7 +261,8 @@ main h2+.project{
 .contactItem{
 
   display: inline-block;
-  width: 40%;
+  width: 45%;
+  margin-left: 2.5%;
 }
 
 .contactItem h3{
